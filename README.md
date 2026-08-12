@@ -69,7 +69,7 @@ uvicorn main:app --reload
 
 On startup, the server downloads (if needed) and loads both the embedding and chat models, initializes the SQLite database (`rag.db`), and rebuilds the retrieval cache from any previously uploaded documents.
 
-Open `chatmhat.html` in a browser — it talks to the API at `http://127.0.0.1:8000`.
+Open `index.html` in a browser — it talks to the API at `http://127.0.0.1:8000`.
 
 ## API
 
